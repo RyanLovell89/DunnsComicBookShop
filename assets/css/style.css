@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
+
+/* ------headings------ */
+
+.main-heading {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.footer-headings {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.comics-heading {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.graphic-novels-heading {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.manga-heading {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/* ------hero image------ */
+
+
+/* ------slide show gallery------ */
+
+
+/* ------footer------ */
+
+footer {
+  left: 0;
+  bottom: 0;
+  background-color: #343a40;
+  color: rgb(209, 205, 205);
+  position: absolute;
+}
+
+.contact-paragraph {
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright-paragraph {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    min-height: 132px;
+    background-color: #1F1F1F;
+    text-align:center;
+}

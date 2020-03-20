@@ -1,6 +1,6 @@
-Your Project's Name
+Dunn's Comic Book Shop
 One or two paragraphs providing an overview of your project.
-
+My project is an online shop for buying comic books, graphic novels and manga. The user will be able to browse through the website using 
 Essentially, this part is your sales pitch.
 
 UX
