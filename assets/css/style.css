@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700&display=swap');
 
+/* ------General------ */
+
+body, html {
+    height: 100%;
+}
+
 /* ------headings------ */
 
 .main-heading {
@@ -7,6 +13,12 @@
     text-align: center;
     font-size: 50px;
     font-weight: 600;
+}
+
+.welcome-heading {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
 }
 
 .footer-headings {
@@ -38,6 +50,40 @@
 
 /* ------hero image------ */
 
+.hero-image {
+    background-image: url("../images/batman-vs-superman2.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.hero-outer {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+/* ------welcome paragraph------ */
+
+.welcome-intro {
+
+}
+
 
 /* ------slide show gallery------ */
 
@@ -45,25 +91,28 @@
 /* ------footer------ */
 
 footer {
-  left: 0;
   bottom: 0;
   background-color: #343a40;
   color: rgb(209, 205, 205);
   position: absolute;
+  width: 100%;
 }
 
 .contact-paragraph {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .copyright-paragraph {
     text-align: center;
 }
 
-.footer {
-    width: 100%;
-    min-height: 132px;
-    background-color: #1F1F1F;
-    text-align:center;
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 7px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(209, 205, 205);
 }
