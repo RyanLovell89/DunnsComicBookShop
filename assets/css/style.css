@@ -4,15 +4,15 @@
 
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* ------headings------ */
 
 .main-heading {
     font-family: "Oswald", sans-serif;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 180px;
 }
 
 .welcome-heading {
@@ -48,40 +48,18 @@ body, html {
     font-weight: 500;
 }
 
-/* ------hero image------ */
+/* ------main image------ */
 
-.hero-image {
-    background-image: url("../images/batman-vs-superman2.png");
-    height: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-.hero-outer {
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1)
-    }
-    to {
-        transform: scale(1.1)
-    }
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* ------welcome paragraph------ */
 
 .welcome-intro {
-
+    text-align: center;
+    font-size: 16px;
 }
 
 
@@ -94,8 +72,8 @@ footer {
   bottom: 0;
   background-color: #343a40;
   color: rgb(209, 205, 205);
-  position: absolute;
   width: 100%;
+  position: bottom;
 }
 
 .contact-paragraph {
