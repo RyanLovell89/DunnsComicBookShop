@@ -8,7 +8,7 @@ body, html {
     padding: 0;
 }
 
-/* ------headings------ */
+/* ------ main headings and sub headings------ */
 
 .main-heading {
     font-family: "Oswald", sans-serif;
@@ -19,6 +19,16 @@ body, html {
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 40px;
+    padding: 12px 0 12px 0;
+    letter-spacing: 1px;
+}
+
+.recommendations-heading {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    padding: 15px 0 12px 0;
+    letter-spacing: 1px;
 }
 
 .footer-headings {
@@ -27,25 +37,19 @@ body, html {
     font-size: 22px;
 }
 
-.comics-heading {
+.page-heading {
     font-family: "Oswald", sans-serif;
     text-align: center;
     font-size: 45px;
     font-weight: 500;
+    padding: 15px 0 15px 0;
+    text-decoration: underline;
 }
 
-.graphic-novels-heading {
-    font-family: "Oswald", sans-serif;
+.sub-heading {
     text-align: center;
-    font-size: 45px;
-    font-weight: 500;
-}
-
-.manga-heading {
+    padding: 15px 0 15px 0;
     font-family: "Oswald", sans-serif;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 500;
 }
 
 /* ------main image------ */
@@ -55,16 +59,146 @@ body, html {
   height: auto;
 }
 
-/* ------welcome paragraph------ */
+/* ------welcome paragraph and page info paragraph------ */
 
 .welcome-intro {
     text-align: center;
     font-size: 16px;
+    padding-top: 15px;
+    font-family: "Exo", sans-serif;
 }
 
+.page-info {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Exo", sans-serif;
+    padding-bottom: 20px;
+}
+
+/* ------welcome image------ */
+
+.circle-cover-background {
+    background: url("/assets/images/home/goku-thumbs-up1.png") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #343a40;
+    border-width: 5px;
+    border-radius: 50%;
+}
+
+.center-image {
+    width: 100%;
+    margin: 0 auto;
+}
 
 /* ------slide show gallery------ */
 
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(253, 251, 251, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* -------comic graphic novel and manga image info------ */
+
+.title-name {
+    text-align: center;
+    text-decoration: bold;
+}
+
+hr.line-break {
+    border-bottom: 5px solid #343a40;
+    width: 90%;
+}
 
 /* ------footer------ */
 
@@ -74,6 +208,7 @@ footer {
   color: rgb(209, 205, 205);
   width: 100%;
   position: bottom;
+  margin-top: 30px;
 }
 
 .contact-paragraph {
