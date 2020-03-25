@@ -128,7 +128,6 @@ body, html {
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  -webkit-user-select: none;
 }
 
 .next {
@@ -187,7 +186,6 @@ body, html {
     text-align: center;
     font-family: "Exo", sans-serif;
     font-size: 20px;
-    text-decoration: bold;
     padding-bottom: 15px;
 }
 
@@ -199,12 +197,13 @@ hr.line-break {
 /* ------footer------ */
 
 footer {
-  bottom: 0;
   background-color: #343a40;
   color: rgb(209, 205, 205);
   width: 100%;
-  position: bottom;
-  margin-top: 30px;
+  left: 0;
+  clear: both;
+  position: relative;
+  margin-top: 15px;
 }
 
 .contact-paragraph {

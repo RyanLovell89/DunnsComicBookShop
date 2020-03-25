@@ -58,7 +58,10 @@ main programing language used to create the website.
 
 <h1>Testing</h1>
 
+* Chrome Developer Tool - Lots of testing was carried out using the this tool. Was heavily to check ths responsiveness of the website.
+also used to test styling out first, ie paddings and margins.
 
+*[HTMLValidator]
 
 
 <h1>Deployment</h1>
@@ -72,18 +75,17 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-#Credits
-<hr>
+<h1>Credits</h1>
 
-##Content
+<h2>Content</h2>
 
 * The paragraphs written by myself, the name of the comics, graphic novels and mangas come from the book themselves.
 
-##Media
+<h2>Media</h2>
 
-* The photos used for the is website were taken from [Grand Comics Database](https://www.comics.org/)
+* The photos used are from the website [Grand Comics Database](https://www.comics.org/)
 
-##Acknowledgements
+<h2>>Acknowledgements</h2
 
 * I got the inspiration to this project from my own comic book collection, I love reading comics, graphic novels and mangas. I have purchased much of my
 collection from online and visiting stores. I wanted to create and share the experience with everyone.
