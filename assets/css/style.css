@@ -26,9 +26,8 @@ body, html {
 .recommendations-heading {
     text-align: center;
     font-family: "Oswald", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     padding: 15px 0 12px 0;
-    letter-spacing: 1px;
 }
 
 .footer-headings {
@@ -42,7 +41,7 @@ body, html {
     text-align: center;
     font-size: 45px;
     font-weight: 500;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 20px 0;
     text-decoration: underline;
 }
 
@@ -192,7 +191,10 @@ body, html {
 
 .title-name {
     text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 15px;
     text-decoration: bold;
+    padding-bottom: 15px;
 }
 
 hr.line-break {
