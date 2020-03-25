@@ -1,5 +1,4 @@
 <h1>Dunn's Comics</h1>
-<hr>
 
 My project is an online comic book shop where a user can view comics, graphic novels and manga that are for sale. The user can see the lists of comics, grahpic novels 
 and manga that are for sale from the nav bar at the top of every page. There is also a recommendations section down near the bottom of the home page 
@@ -8,7 +7,6 @@ where the user can view popular comics, graphic novels and manga.
 The comic, graphic novel and manga pages display a front cover of an issue, the issues name and the issues number and how much it can be purchased for. 
 
 <h1>UX</h1>
-<hr>
 
 The website is aimed at comic book, graphic novel and manga fans. A user of this website would be looking to purchase these items, the best way of achieving
 this would be browsing through the collections that are on offer. With lots of images for the user to look at they can see what each cover looks like before
@@ -21,7 +19,6 @@ purchasing.
 Balsamiq Wireframes have been added in a separate directory in pdf format. Some changes were made from orignal ideas.
 
 <h1>Features</h1>
-<hr>
 
 * Home Page - the first place visted on the website, lets the user know what the website is about.
 * Comics Page - a section for the comic books that are available to purchase.
@@ -46,26 +43,26 @@ size of the layout on different screen sizes.
 * Add to basket button under each image so the user can items to their basket.
 
 <h1>Technologies Used</h1>
-<hr>
 
-* HTML and CSS - https://en.wikipedia.org/wiki/HTML https://en.wikipedia.org/wiki/Cascading_Style_Sheets main programing language used 
-to create the website.
-* Javascript - https://en.wikipedia.org/wiki/JavaScript a little bit of JavaScript was used with the slidehsow to help it work correctly.
-* Bootstrap 4 - https://getbootstrap.com/ used for a lot of the layout of pages, nav bar and grid layout was taken from there.
-* Balsamiq - https://balsamiq.com/ used to create the Wireframes.
-* Google fonts - https://fonts.google.com/ used for the headings and paragraph text, took Exo and Oswald also added the font weights.
-* Font Awesome - https://fontawesome.com/ used for the social links in the footer.
-* GitHub - https://github.com/ used to host the website repository. 
-* GitPages - https://pages.github.com/ used host the live website.
-* Resize Image - https://resizeimage.net/ used to resize the front covers of the books.
+* [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) -  
+main programing language used to create the website.
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) -  a little bit of JavaScript was used with the slidehsow to help it work.
+* [Bootstrap4](https://getbootstrap.com/) - used for a lot of the layout of pages, nav bar and grid layout was taken from there.
+* [w3schools](https://www.w3schools.com/html/default.asp) - was
+* [Balsamiq](https://balsamiq.com/) - used to create the Wireframes, the desktop version was used.
+* [Google fonts](https://fonts.google.com/) - used for the headings and paragraph text, took Exo and Oswald also added the font weights.
+* [Font Awesome](https://fontawesome.com/) - used for the social links in the footer.
+* [GitHub](https://github.com/) - used to host the website repository. 
+* [GitPages](https://pages.github.com/) - used host the live website.
+* [ResizeImage](https://resizeimage.net/) - used to resize the front covers of the books.
 
 <h1>Testing</h1>
-<hr>
+
 
 
 
 <h1>Deployment</h1>
-<hr>
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -84,7 +81,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ##Media
 
-* The photos used for the is website were taken from [Grand Comics Database] https://www.comics.org/
+* The photos used for the is website were taken from [Grand Comics Database](https://www.comics.org/)
 
 ##Acknowledgements
 
