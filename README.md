@@ -65,14 +65,7 @@ also used to test styling out first, ie paddings and margins.
 
 <h1>Deployment</h1>
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 <h1>Credits</h1>
 
@@ -84,7 +77,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 * The photos used are from the website [Grand Comics Database](https://www.comics.org/)
 
-<h2>>Acknowledgements</h2>
+<h2>Acknowledgements</h2>
 
 * I got the inspiration to this project from my own comic book collection, I love reading comics, graphic novels and mangas. I have purchased much of my
 collection from online and visiting stores. I wanted to create and share the experience with everyone.
