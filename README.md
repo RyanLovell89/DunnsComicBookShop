@@ -58,11 +58,10 @@ main programing language used to create the website.
 
 <h1>Testing</h1>
 
-* Chrome Developer Tool - Lots of testing was carried out using the this tool. Was heavily to check ths responsiveness of the website.
+* Chrome Developer Tool - Lots of testing was carried out using the this tool. Was heavily used to check ths responsiveness of the website.
 also used to test styling out first, ie paddings and margins.
-
-*[HTMLValidator]
-
+* [HTMLValidator](https://validator.w3.org/) used to check the HTML code throughtout the creatation of the website.
+* [CSSValidator](https://jigsaw.w3.org/css-validator/) used to check the CSS code throughtout the creatation of the website.
 
 <h1>Deployment</h1>
 
@@ -85,7 +84,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 * The photos used are from the website [Grand Comics Database](https://www.comics.org/)
 
-<h2>>Acknowledgements</h2
+<h2>>Acknowledgements</h2>
 
 * I got the inspiration to this project from my own comic book collection, I love reading comics, graphic novels and mangas. I have purchased much of my
 collection from online and visiting stores. I wanted to create and share the experience with everyone.
