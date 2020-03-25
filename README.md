@@ -1,4 +1,4 @@
-#Dunn's Comics
+<h1>Dunn's Comics</h1>
 <hr>
 
 My project is an online comic book shop where a user can view comics, graphic novels and manga that are for sale. The user can see the lists of comics, grahpic novels 
@@ -7,56 +7,64 @@ where the user can view popular comics, graphic novels and manga.
 
 The comic, graphic novel and manga pages display a front cover of an issue, the issues name and the issues number and how much it can be purchased for. 
 
-#UX
+<h1>UX</h1>
 <hr>
 
 The website is aimed at comic book, graphic novel and manga fans. A user of this website would be looking to purchase these items, the best way of achieving
-this would be browsing through the collections that are on offer.
+this would be browsing through the collections that are on offer. With lots of images for the user to look at they can see what each cover looks like before
+purchasing.
 
-#Features
+* As a new reader of comics, graphic novels and manga, I would like to know what is recommended to read.
+* As a potenial customer I wish to know what comics, graphic novels and manga are available to purchase.
+* As a potenial customer I wish to contact the online shop to see if they can order me something specific.
+
+Balsamiq Wireframes have been added in a separate directory in pdf format. Some changes were made from orignal ideas.
+
+<h1>Features</h1>
 <hr>
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+* Home Page - the first place visted on the website, lets the user know what the website is about.
+* Comics Page - a section for the comic books that are available to purchase.
+* Graphic Novels Page - a section for the graphic novels that are available to purchase.
+* Manga Page - a section for the manga that are available to purchase.
 
-##Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<h2>Existing Features</h2>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* Responsive nav bar - the nav bar is used on all pages, it colapses down into a hamburger icon on smaller screen sizes. It has
+ a drop down menu for the sections available on the page, when selected it will take you the section you have clicked. ie clicking DC will
+ take you to DC section of comics.
+* Responsive main image - big main image of a popular comic. The is image is responsive and scales to the different screen sizes.
+* Slideshow gallery - used for the recommendations section on the home page. show case different popular items to check out.
+* Responsive grid image layout - used on the comic, graphic novel and manga pages, showcases what books are available to purchase. Changes
+size of the layout on different screen sizes.
 
-##Features Left to Implement
+<h2>Features Left to Implement</h2>
 
-Another feature idea
+* Login / Sign Up button and page, so the user can login / sign up and place all their information on their account for deliveries, payment and tracking orders.
+* An order basket, so the user can see what they wish to purchase.
+* More selection of comics, graphic novels and manga, give the user a wider range of products to order.
+* Add to basket button under each image so the user can items to their basket.
 
-#Technologies Used
+<h1>Technologies Used</h1>
 <hr>
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+* HTML and CSS - https://en.wikipedia.org/wiki/HTML https://en.wikipedia.org/wiki/Cascading_Style_Sheets main programing language used 
+to create the website.
+* Javascript - https://en.wikipedia.org/wiki/JavaScript a little bit of JavaScript was used with the slidehsow to help it work correctly.
+* Bootstrap 4 - https://getbootstrap.com/ used for a lot of the layout of pages, nav bar and grid layout was taken from there.
+* Balsamiq - https://balsamiq.com/ used to create the Wireframes.
+* Google fonts - https://fonts.google.com/ used for the headings and paragraph text, took Exo and Oswald also added the font weights.
+* Font Awesome - https://fontawesome.com/ used for the social links in the footer.
+* GitHub - https://github.com/ used to host the website repository. 
+* GitPages - https://pages.github.com/ used host the live website.
+* Resize Image - https://resizeimage.net/ used to resize the front covers of the books.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-
-#Testing
+<h1>Testing</h1>
 <hr>
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-#Deployment
+<h1>Deployment</h1>
 <hr>
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 

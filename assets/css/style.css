@@ -62,14 +62,14 @@ body, html {
 
 .welcome-intro {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 15px;
     font-family: "Exo", sans-serif;
 }
 
 .page-info {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Exo", sans-serif;
     padding-bottom: 20px;
 }
@@ -186,7 +186,7 @@ body, html {
 .title-name {
     text-align: center;
     font-family: "Exo", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: bold;
     padding-bottom: 15px;
 }
