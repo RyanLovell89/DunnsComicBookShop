@@ -64,6 +64,13 @@ also used to test styling out first, ie paddings and margins.
 * [HTMLValidator](https://validator.w3.org/) used to check the HTML code throughtout the creatation of the website.
 * [CSSValidator](https://jigsaw.w3.org/css-validator/) used to check the CSS code throughtout the creatation of the website.
 
+* As a new reader of comics, graphic novels and manga, I would like to know what is recommended to read.
+* As a potenial customer I wish to know what comics, graphic novels and manga are available to purchase.
+* As a potenial customer I wish to contact the online shop to see if they can order me something specific.
+
+
+
+
 <h1>Deployment</h1>
 
 
