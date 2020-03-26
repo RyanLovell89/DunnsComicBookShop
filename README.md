@@ -29,11 +29,11 @@ Balsamiq Wireframes have been added in a separate directory in pdf format. Some 
 
 * Responsive nav bar - the nav bar is used on all pages, it colapses down into a hamburger icon on smaller screen sizes. It has
  a drop down menu for the sections available on the page, when selected it will take you the section you have clicked. ie clicking DC will
- take you to DC section of comics.
-* Responsive main image - big main image of a popular comic. The is image is responsive and scales to the different screen sizes.
-* Slideshow gallery - used for the recommendations section on the home page. show case different popular items to check out.
+ take you to DC section of comics. Was taken from bootstrap.
+* Responsive main image - big main image of a popular comic. The is image is responsive and scales to the different screen sizes. Was helped by w3schools
+* Slideshow gallery - used for the recommendations section on the home page. show case different popular items to check out. Was taken from w3schools.
 * Responsive grid image layout - used on the comic, graphic novel and manga pages, showcases what books are available to purchase. Changes
-size of the layout on different screen sizes.
+size of the layout on different screen sizes. Row and column system taken fromm bootstrap.
 
 <h2>Features Left to Implement</h2>
 
@@ -47,8 +47,9 @@ size of the layout on different screen sizes.
 * [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) -  
 main programing language used to create the website.
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript) -  a little bit of JavaScript was used with the slidehsow to help it work.
+* [jQuery](https://en.wikipedia.org/wiki/JQuery) - used for some of bootstraps styling.
 * [Bootstrap4](https://getbootstrap.com/) - used for a lot of the layout of pages, nav bar and grid layout was taken from there.
-* [w3schools](https://www.w3schools.com/html/default.asp) - was
+* [w3schools](https://www.w3schools.com/html/default.asp) - was used for the main responsive image and also for slide show gallery.
 * [Balsamiq](https://balsamiq.com/) - used to create the Wireframes, the desktop version was used.
 * [Google fonts](https://fonts.google.com/) - used for the headings and paragraph text, took Exo and Oswald also added the font weights.
 * [Font Awesome](https://fontawesome.com/) - used for the social links in the footer.
